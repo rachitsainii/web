@@ -1,0 +1,104 @@
+Internet - 
+1. It is just a long piece of wire which connects all the computers in the world. Like one is Seattle and one in London.
+2. The computers can talk to each other and transfer data through this wire.
+3. Some of these computers have to be only 24*7 ready to serve the requested files when we access a website. These computers are called servers.
+4. Servers - Provide data that is requested. 
+5 Client - The computer that the user is using to access the internet.
+
+Client (www.google.com) -> ISP (Spectrum or Jio) -> DNS Server (Domain Name System Server) : Sort of like a phone book; has
+lots of IP addresses of each domain.
+
+https://www.nslookup.io
+
+https://www.submarinecablemap.com
+
+
+
+
+How do websites work?
+
+Server back sends the files and data request by the client in HTML, CSS and JS.
+HTML - responsible for content in the website like text, images, buttons.
+CSS - responsible for color and styling.
+JS - Allows the website to do things, adds functionality to a website. 
+     It turns a static website into a dynamic one.
+
+
+HTML (Hyper Text Markup Language)- 
+
+HyperText - Text which links to other text or file in the same website or a different website.
+Markup Language - Tags are used to do markup in HTML.
+
+Browsers like Chrome, Safari etc. take HTML, CSS and JS and render them into a website.
+
+
+HTML Tags - 
+1. Heading Element : <h1> to <h6>
+Some Do's and Dont's
+- Don't have more than one <h1>.
+- Don't skip a level when creating heading elements.
+
+
+
+2. Paragraph Element : <p> 
+https://www.lipsum.com - Lorem Ipsum
+https://www.baconipsum.com 
+
+
+3. Void Elements : <hr/> and <br/>
+<hr />  - horizontal rule
+<br /> -  line break
+Some Do's and Don'ts:
+1. Use <br /> element only when it is absolutely necessary. Try to break things in paragraphs.
+2. Can use <br> and <hr> as well.
+
+
+4. List Elements : Ordered and Unordered Lists
+Unordered List : 
+<ul> 
+    <li> </li>
+    <li> </li>
+    <li> </li>
+</ul> 
+
+
+Ordered List :
+<ol>
+    <li> </li>
+    <li> </li>
+    <li> </li>
+</ol>
+
+
+5. Nesting and Indentation 
+ Nesting a List within a List : Indentation is very important here, to increase the readability of code.
+
+    <ul> 
+        <li> </li>
+        <li> </li>
+        <li> </li>
+         <ul>
+             <li> </li>
+             <li> </li>
+         </ul>
+        <li> </li>
+    </ul>
+
+
+
+6. Anchor Element <a> :
+<a href="https://www.google.com"> Google </a>
+
+
+
+7. HTML Attributes :
+<tag attribute=value anotherattribute=value> Content </tag>
+
+
+8. Images :
+<img src="url" alt="forest at sunset/>
+alt stands for alternate text : Used for people with visual impairment, it describes the image.
+
+- It is also a void element, i.e. it doesn't have a closing tag.
+
+Get Random Images - https://www.picsum.photos

@@ -1,0 +1,59 @@
+CSS : Cascading Style Sheets.
+
+A Cascade is like a waterfall, we have different levels. 
+Start from the most genenral, all the way down to the most specific.
+
+- CSS ia a style sheet language.
+
+Ways of adding CSS to an HTML file :
+
+1. INLINE : Goes in the same line of the HTML code.
+            <html style="background:blue">    -> style="property:value"
+            </html>
+            Useful for adding CSS style to just a single element on the HTML page.
+            Not recommended to use for entire document, only for specific sections or elements.
+
+2. EXTERNAL : Live in a completely different .css file.
+              Inside this css file we write the css rules.
+              Linking - Add a <link /> element in the head section. <link rel="stylesheet" href="file_address"/>
+              Used most commonly in Web Dev.
+
+3. INTERNAL :  <style> 
+                  SELECTER-> html {
+                        background: red;
+                    }
+                </style>
+                Can apply to anywhere in the HTML document.
+                Useful for applying only to one HTML document. Not to be used on Mutlipage website.
+
+CSS Selectors :
+property:value; // E.g - color:blue;
+
+h1{  // here h1 is a CSS selector.
+    property:value;
+}
+
+1. Class Selectors - Use class selectors by specifying the class of the HTML.
+
+2. Id Selector - id="main".
+
+3. Attribute Selector -
+ p[draggable] { p->HTML element [draggable] -> attribute (Select all paragraphs element with attribute draggable)
+    color:red;
+}
+
+4. Universal Selector : * -> Select all
+
+* {
+    color : red;
+}
+
+Difference b/w ID and Class Selector :
+Class Selector can be applied to many element.
+ID selector should be appliedto only single element.
+
+
+
+
+
+

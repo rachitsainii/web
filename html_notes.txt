@@ -102,3 +102,43 @@ alt stands for alternate text : Used for people with visual impairment, it descr
 - It is also a void element, i.e. it doesn't have a closing tag.
 
 Get Random Images - https://www.picsum.photos
+
+
+
+FILEPATHS -
+Can direct to a file or a folder. It is used to direct the computer to look inside a specific location in the hard drive.
+
+Absolute File Paths : Relative to the root of the computer. root/Project/Images/cat.png
+Really useful when navigating on a computer.
+
+Relative File Path : More useful for web development. In this case we are not in the root folder.
+For example a Project folder has an index.html file, another folder called Images containing a cat.png image. 
+To access that image inside Index.html we can use ../../Images/cat.png path. 
+
+
+../ -> Look in the higher directories.
+./ -> Stays in the current directory.
+
+
+MULTI-PAGE websites : 
+Use <a> to provide a link to different html files (webpages).
+
+
+HTML Boilerplate :
+
+<!DOCTYPE html>   -> Tells the browser which version of HTML the file is written in.
+<html lang="en">  -> Root of the document, every element goes inside the opening and closing tags of <html>. lang is the language used for targeted users.
+    <head>        -> Important info about our website is placed, but not displayed to the user. It helps in rendering the webite.
+        <meta charset = "UTF8">  -> Makes sure the characters used in the website are displayed properly.
+        <title> My Website </title> -> What get's displayed in the tab bar.
+    </head>
+
+    <body>  -> All of the content of the website goes here, like headings, images etc.
+        <h1> Hello world! </h1> -> Website Content
+    </body>
+</html>
+
+
+HOSTING THE WEBSITE :
+Process of making the website available from anywhere.
+Github Pages 

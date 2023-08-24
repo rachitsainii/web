@@ -53,7 +53,64 @@ Class Selector can be applied to many element.
 ID selector should be appliedto only single element.
 
 
+CSS Colors:
+
+background-color : color;
+color : blue; // This is for text
+
+color = red, blue, green ; Can provide hex values also; or rgb(value1, value2, value3);
+
+https://www.colorhunt.co
 
 
+CSS Font Properties:
+
+color : blue;
+
+font-family : san-serif;
+Helvetica, sans-serif
+sans-serif : Helvetica
+serif : Times New Roman
+If font size is larger than one word, place it like this :  "Times New Roman".
+https://www.fonts.google.com
+
+font-size : 20px;   
+1px = 1/96th of inch. 
+1pt = 1/72nd of an inch.
+1em - Defined as the full width of the letter m. This unit represents that entire width. (100% of parent - Size is relative to it's parent).
+If h2 is enclosed in a footer - which has a size of 20px and h2 has a size of 2em then h2's effective size will be 40px
+1rem - 100% of root. Change in size of the root, affects the size of other elements.
+
+font-weight: bold;
+font-weight: normal;
+relative font weight : lighter, bolder
+number : 100 - 900
+
+text-align: center, left, right, start, end;
 
 
+CSS Inspection : Any changes made using Chrome Developer Tools, doesn't affect the original file.
+
+THE BOX MODEL :
+
+Margin, Padding, Width, Height.
+
+border : thickness style color; 
+border : 10px solid black;
+    border-top : 0px;
+    border-width : 0px (top) 10px(right) 20px(bottom) 30px(left)
+    border-width : 0px (top, bottom) 20px (left, right)
+
+    padding : 20px - Will push the border out by 20 pixels on 4 sides.
+
+    margin : the part that is outside of the border.
+    margin : 10px - Adds a margin of 10 pixels on all 4 sides.
+
+    padding and margin border-width can be provided with 4 
+    different values. Goes around in a clockwise direction stating from top.
+
+    CONTENT DIVISION ELEMENT <div> :
+
+    <div> </div> : Acts an invisible box that can contain content within the opening and closing tags.
+    The aim is to group elements which can be styled together.
+    Creates an invisible container and separates content.

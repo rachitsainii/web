@@ -1,0 +1,6 @@
+Java Script : A Web developer's version of a play.
+
+Java vs JavaScript : 
+These have as much as commom as Car and Carpet have in common.
+
+- Javascript is an interpreted language where as Java is a compiled programming language.

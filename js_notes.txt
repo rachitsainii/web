@@ -1,6 +1,52 @@
 Java Script : A Web developer's version of a play.
+Language that powers the web.
 
 Java vs JavaScript : 
 These have as much as commom as Car and Carpet have in common.
 
 - Javascript is an interpreted language where as Java is a compiled programming language.
+
+
+alert("Hello");
+
+alert -> function
+Message -> "Hello" (String)
+; -> end 
+
+
+JS Datatypes:
+
+1. String - "Hello"  
+    String Concatenation - "a" + "b" = "ab"
+    String Lengths - variable.length  
+    Slicing - slice(x,y);
+        eg - var name = "Rachit";
+             name.slice(0,1);
+             output - R
+    toUpperCase() - Change characters to uppercase.
+
+2. Numbers - 1,2,3
+
+3. Boolean - true, false
+
+To check the dataype, use typeof() operator.
+
+
+
+JS Variables:
+
+var myName = "Rachit";
+
+var -> keyword
+myName -> name of Variable
+"Rachit" -> value 
+
+var yourName = prompt("Enter your name: ");
+
+Functions in JS :
+
+
+
+
+
+
